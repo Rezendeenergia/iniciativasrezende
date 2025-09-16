@@ -613,34 +613,7 @@
                         <div class="form-group">
                             <label for="estado">Estado <span class="required">*</span></label>
                             <select id="estado" name="estado" required aria-required="true">
-                                <option value="">Selecione...</option>
-                                <option value="AC">Acre</option>
-                                <option value="AL">Alagoas</option>
-                                <option value="AP">Amapá</option>
-                                <option value="AM">Amazonas</option>
-                                <option value="BA">Bahia</option>
-                                <option value="CE">Ceará</option>
-                                <option value="DF">Distrito Federal</option>
-                                <option value="ES">Espírito Santo</option>
-                                <option value="GO">Goiás</option>
-                                <option value="MA">Maranhão</option>
-                                <option value="MT">Mato Grosso</option>
-                                <option value="MS">Mato Grosso do Sul</option>
-                                <option value="MG">Minas Gerais</option>
                                 <option value="PA">Pará</option>
-                                <option value="PB">Paraíba</option>
-                                <option value="PR">Paraná</option>
-                                <option value="PE">Pernambuco</option>
-                                <option value="PI">Piauí</option>
-                                <option value="RJ">Rio de Janeiro</option>
-                                <option value="RN">Rio Grande do Norte</option>
-                                <option value="RS">Rio Grande do Sul</option>
-                                <option value="RO">Rondônia</option>
-                                <option value="RR">Roraima</option>
-                                <option value="SC">Santa Catarina</option>
-                                <option value="SP">São Paulo</option>
-                                <option value="SE">Sergipe</option>
-                                <option value="TO">Tocantins</option>
                             </select>
                             <div class="error-message" id="estadoError">Por favor, selecione o estado</div>
                         </div>
@@ -658,34 +631,13 @@
 
                     <div class="form-group">
                         <label for="nomeIniciativa">Nome da Iniciativa <span class="required">*</span></label>
-                        <input type="text" id="nomeIniciativa" name="nomeIniciativa" placeholder="Ex: Projeto de Energia Solar Comunitária" required aria-required="true">
+                        <input type="text" id="nomeIniciativa" name="nomeIniciativa" placeholder="Ex: Aumento de Produtividade" required aria-required="true">
                         <div class="error-message" id="nomeIniciativaError">Por favor, informe o nome da iniciativa</div>
                     </div>
-
-                    <div class="form-group">
-                        <label for="tipoIniciativa">Tipo de Iniciativa <span class="required">*</span></label>
-                        <select id="tipoIniciativa" name="tipoIniciativa" required aria-required="true">
-                            <option value="">Selecione...</option>
-                            <option value="solar">Energia Solar</option>
-                            <option value="eolica">Energia Eólica</option>
-                            <option value="biomassa">Biomassa/Biogás</option>
-                            <option value="eficiencia">Eficiência Energética</option>
-                            <option value="educacao">Educação/Conscientização</option>
-                            <option value="outro">Outro</option>
-                        </select>
-                        <div class="error-message" id="tipoIniciativaError">Por favor, selecione o tipo de iniciativa</div>
-                    </div>
-
                     <div class="form-group">
                         <label for="descricaoIniciativa">Descrição da Iniciativa <span class="required">*</span></label>
                         <textarea id="descricaoIniciativa" name="descricaoIniciativa" placeholder="Descreva detalhadamente sua iniciativa: o que é, como funciona, quais os objetivos..." required aria-required="true"></textarea>
                         <div class="error-message" id="descricaoIniciativaError">Por favor, forneça uma descrição da iniciativa</div>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="finalidadeIniciativa">Para que serve esta iniciativa? <span class="required">*</span></label>
-                        <textarea id="finalidadeIniciativa" name="finalidadeIniciativa" placeholder="Explique qual problema resolve, quem será beneficiado, qual impacto esperado..." required aria-required="true"></textarea>
-                        <div class="error-message" id="finalidadeIniciativaError">Por favor, explique a finalidade da iniciativa</div>
                     </div>
                 </div>
 
@@ -698,21 +650,14 @@
                         <select id="estagioIniciativa" name="estagioIniciativa" required aria-required="true">
                             <option value="">Selecione...</option>
                             <option value="ideia">Ideia/Planejamento</option>
-                            <option value="iniciacao">Em fase inicial</option>
                             <option value="andamento">Em andamento</option>
-                            <option value="concluido">Concluída</option>
                         </select>
                         <div class="error-message" id="estagioIniciativaError">Por favor, selecione o estágio da iniciativa</div>
                     </div>
 
                     <div class="form-group">
                         <label for="parceiros">Parceiros/Colaboradores</label>
-                        <textarea id="parceiros" name="parceiros" placeholder="Liste organizações, empresas ou pessoas que são parceiras nesta iniciativa..."></textarea>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="observacoes">Observações Adicionais</label>
-                        <textarea id="observacoes" name="observacoes" placeholder="Outras informações relevantes sobre sua iniciativa..."></textarea>
+                        <textarea id="parceiros" name="parceiros" placeholder="Mencione seus parceiros da iniciativa"></textarea>
                     </div>
                 </div>
 
